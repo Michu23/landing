@@ -17,7 +17,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .banner {
-    padding-top: 100px;
+    padding-top: 100px !important;
   }
   .banner h1 {
     font-size: 2.5rem !important;
