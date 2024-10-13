@@ -166,12 +166,23 @@ html {
 
 .cta-section {
   background-color: black; /* Light background color */
-  padding: 50px; /* Vertical padding */
+  padding: 50px !important; /* Vertical padding */
 }
 
 @media screen and (max-width: 768px) {
   .cta-section {
-    padding: 50px 30px;
+    padding: 50px 30px !important;
+  }
+
+  .cute-girl{
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+  .doc-img {
+    margin-top: -80px;
   }
 }
 
@@ -199,8 +210,8 @@ html {
   font-size: 12px;
 }
 
-.bg-main{
-    background-color: #045395;
+.bg-main {
+  background-color: #045395;
 }
 
 .cta-section h2 {
