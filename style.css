@@ -174,11 +174,14 @@ html {
     padding: 50px 30px !important;
   }
 
-  .cute-girl{
+  .yt-vid {
+    height: 70vh;
+  }
+
+  .cute-girl {
     max-height: 300px;
     width: 100%;
     object-fit: cover;
-    
   }
 
   .doc-img {
